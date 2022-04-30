@@ -5,46 +5,68 @@
 ## Install
 
 ```
-$ npm install --save @gykh/is-even
+$ npm install --save @react-augusta-events/hooks
 ```
+
 ### or
 
-
 ```
-$ npm i -S @gykh/is-even
+$ npm i -S @react-augusta-events/hooks
 ```
 
 ## Usage
 
-isEven
+### 1. useDragDrop
+
+- [Demo](https://codesandbox.io/s/new?utm_source=dotnew)
 
 ```js
-const { isEven } = require("@gykh/is-even");
+import {useDragDrop} from '@react-augusta-events/hooks/lib';
+
 
 ...
-console.log(isEven(2)); // true
-console.log(isEven(1)); // false
+function App() {
+  const { elRef, listening, isDropZone, isUpload } = useDragDrop({
+    onUploadFile: (data) => {
+      console.log(data);
+    },
+  });
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <div
+          ref={elRef}
+          className={isDropZone ? "in-drop" : "drop-zone"}
+          {...listening}
+        >
+          {isUpload ? "Successufly upload!" : ( isDropZone ? "Now Drop you File" : "Upload you file" )}
+        </div>
+      </header>
+    </div>
+  );
+}
 ```
 
 ## API
 
-### is-even
+### 1. useDragDrop
 
-#### input
-
-Type: `number`<br/>
-Required
-
-## Understand Caesar Cipher
-
-> Simple demonstration for publishing a package
+Field: draggable : boolean - for draggable item,
+<br/>
+callback: onStart,
+<br/>
+callback: onUploadFile,
+<br/>
+callback: onEnterZone,
+<br/>
+callback: onOver,
+<br/>
+callback: onLeaveZone,
+<br/>
 
 ## Developer
 
-- [Sylvester Das](https://www.sylvesterdas.com) 
+- [Sarkhan Rahimli](https://github.com/rahimlisarkhan)
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/sylvester.das)
-
-## License
-
-MIT © 2021 [get-your-knowledge-here](./LICENSE)
+[!["Your Developing Software Engineer"](https://media-exp1.licdn.com/dms/image/C4D03AQENKrP-fvxDeA/profile-displayphoto-shrink_800_800/0/1651258516656?e=1656547200&v=beta&t=QaiZibOa3cTNN64bFzNSt8BWO7NnTqDJkaXM1VP-yrk)](https://github.com/rahimlisarkhan)

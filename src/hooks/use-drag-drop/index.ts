@@ -1,5 +1,4 @@
 import { useRef, useState } from "react";
-
 interface DragDropType {
   draggable?: boolean;
   onStart?: (e: React.DragEvent<HTMLDivElement>) => void;
@@ -66,4 +65,3 @@ export const useDragDrop = ({
 
   return { elRef, isDropZone, isUpload, listening };
 };
-
