@@ -21,7 +21,7 @@ $ npm i -S react-augusta-events
 - [Demo](https://codesandbox.io/s/usedragdrop-react-augusta-events-ifyk0s?file=/src/App.tsx)
 
 ```js
-import {useDragDrop} from 'react-augusta-events/lib';
+import { useDragDrop } from 'react-augusta-events/lib';
 
 
 ...
