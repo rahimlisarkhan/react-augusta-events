@@ -5,13 +5,13 @@
 ## Install
 
 ```
-$ npm install --save @react-augusta-events/hooks
+$ npm install --save react-augusta-events
 ```
 
 ### or
 
 ```
-$ npm i -S @react-augusta-events/hooks
+$ npm i -S react-augusta-events
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ $ npm i -S @react-augusta-events/hooks
 - [Demo](https://codesandbox.io/s/new?utm_source=dotnew)
 
 ```js
-import {useDragDrop} from '@react-augusta-events/hooks/lib';
+import {useDragDrop} from 'react-augusta-events/lib';
 
 
 ...

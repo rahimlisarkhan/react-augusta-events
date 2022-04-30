@@ -1,6 +1,6 @@
 {
-  "name": "@react-augusta-events/hooks",
-  "version": "1.0.1",
+  "name": "react-augusta-events",
+  "version": "1.0.5",
   "description": "",
   "main": "lib/index.js",
   "types": "lib",
@@ -14,10 +14,9 @@
   "keywords": [],
   "author": {
     "name": "Sarkhan Rahimli",
-    "email": "sylvester.das@gmail.com",
-    "url": "https://www.sylvesterdas.com"
+    "email": "rahimlisarkhan@gmail.com",
+    "url": "https://github.com/rahimlisarkhan"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rahimlisarkhan/react-augusta-events/issues"
   },
@@ -30,7 +29,6 @@
     "react-dom": "^18.1.0"
   },
   "dependencies": {
-    "@rahimlisarkhan/use-drag-drop": "^1.0.1",
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.3"
   }
