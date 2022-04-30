@@ -1,0 +1,37 @@
+{
+  "name": "@react-augusta-events/hooks",
+  "version": "1.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahimlisarkhan/react-augusta-events.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Sarkhan Rahimli",
+    "email": "sylvester.das@gmail.com",
+    "url": "https://www.sylvesterdas.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahimlisarkhan/react-augusta-events/issues"
+  },
+  "homepage": "https://github.com/rahimlisarkhan/react-augusta-events#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "dependencies": {
+    "@rahimlisarkhan/use-drag-drop": "^1.0.1",
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.3"
+  }
+}
