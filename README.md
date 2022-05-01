@@ -1,4 +1,4 @@
-# React Augusta Events - ( useDragDrop, others - coming soon )
+# React Augusta Events - ( useDragDrop,useClipboard, others - coming soon )
 
 > One of the simplest forms of encryption
 
