@@ -1,2 +1,2 @@
 //Hooks
-export { useDragDrop } from "./hooks";
+export { useDragDrop, useClipboard } from "./hooks";

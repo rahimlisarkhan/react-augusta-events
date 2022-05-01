@@ -1,2 +1,2 @@
-export { useDragDrop } from "./hooks";
+export { useDragDrop, useClipboard } from "./hooks";
 //# sourceMappingURL=index.d.ts.map
