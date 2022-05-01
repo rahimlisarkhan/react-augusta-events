@@ -47,6 +47,25 @@ function App() {
   );
 }
 ```
+
+## API ( useDragDrop )
+Field: isDropZone : boolean - for item behaviour,
+Field: isUpload : boolean - for upload behaviour,
+
+<br/>
+callback: onUploadFile,
+<br/>
+callback: onStart,
+<br/>
+callback: onOver,
+<br/>
+callback: onEnterZone,
+<br/>
+callback: onLeaveZone,
+<br/>
+
+
+
 <br/>
 <br/>
 
@@ -121,7 +140,7 @@ import { useClipboard } from 'react-augusta-events/lib';
   );
 ```
 
-## API
+## API ( useClipboard )
 Field: isCopy : boolean - for copy text,
 Field: isPaste : boolean - for paste text,
 Field: isCut : boolean - for cut text,
