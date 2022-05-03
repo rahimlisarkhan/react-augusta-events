@@ -1,4 +1,4 @@
-# React Augusta Events - ( useDragDrop,useClipboard, others - coming soon )
+# React Augusta Events
 
 > One of the simplest forms of encryption
 
@@ -13,7 +13,14 @@ $ npm install --save react-augusta-events
 ```
 $ npm i -S react-augusta-events
 ```
+## Hooks
 
+```
+1. useDragDrop
+
+2. useClipboard
+
+```
 ## Usage
 
 ### 1. useDragDrop
